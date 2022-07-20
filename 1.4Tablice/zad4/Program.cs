@@ -12,7 +12,7 @@ for (int i = 0; i < array1.Length; i++)
 Console.Write("First array: ");
 Console.WriteLine(string.Join(" ", array1));
 
-Console.Write("Second array: "); 
+Console.Write("Second array: ");
 Console.WriteLine(string.Join(" ", array2));
 
 var array3 = array1.Concat(array2).ToArray();

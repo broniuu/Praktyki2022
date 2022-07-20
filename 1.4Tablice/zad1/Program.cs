@@ -28,13 +28,15 @@ switch (taskNumber)
         Console.WriteLine($"Największy: {greatestElement}");
         Console.WriteLine($"Najmniejszy: {smallestElement}");
         break;
-    case 4: case 5:
+    case 4:
+    case 5:
         Console.Write("Wyierz numer indeksu: ");
         var choosenIndex = int.Parse(Console.ReadLine());
         if (choosenIndex < 0 || choosenIndex >= size)
         {
             Console.WriteLine("Index poza zakresem!");
-        } else
+        }
+        else
         {
             switch (taskNumber)
             {

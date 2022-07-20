@@ -5,13 +5,13 @@ if (n < 0)
     Console.WriteLine("Liczba, nie jest naturalna");
     Environment.Exit(1);
 }
-var boolArray = new bool[n,n];
+var boolArray = new bool[n, n];
 
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        boolArray[i,j] = HasNotCommonDivisior(i+1,j+1);
+        boolArray[i, j] = HasNotCommonDivisior(i + 1, j + 1);
     }
 }
 

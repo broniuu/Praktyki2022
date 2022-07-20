@@ -2,7 +2,7 @@
 Random random = new Random();
 var size = 20;
 var array = new int[size];
-for (var i = 0; i <size; ++i)
+for (var i = 0; i < size; ++i)
 {
     array[i] = random.Next(1, 10);
 }
