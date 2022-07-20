@@ -1,29 +1,11 @@
-﻿var price = -1m;
+﻿var price = GetPrice();
 
-while (price < 0)
-{
-    Console.Write("Podaj cenę towaru: ");
-    price = decimal.Parse(Console.ReadLine());
-}
+var installmentsCount = GetInstallmentsCount();
 
-var installmentsCount = 1;
-
-while (installmentsCount < 2 || installmentsCount > 24)
-{
-    Console.Write("Podaj liczbę rat (od 2 do 24): ");
-    installmentsCount = int.Parse(Console.ReadLine());
-}
-
-var installmentPayDay = -1;
-while (installmentPayDay < 0)
-{
-    Console.Write("Podaj dzień płatności raty (dzień dla każdego miesiąca, w którym ma być płatna rata): ");
-    installmentPayDay = int.Parse(Console.ReadLine());
-}
+var installmentPayDay = GetInstallmentPayDay();
 
 Console.Write("Podaj wpłatę klienta (od 0 zł): ");
 var payment = decimal.Parse(Console.ReadLine());
-
 
 var currentDate = DateTime.Now;
 
@@ -86,4 +68,40 @@ static List<DateTime> CalculatePayDates(int installmentsCount, DateTime basePayD
         payDates.Add(payDate);
     }
     return payDates;
+}
+
+static decimal GetPrice()
+{
+    var price = 0m;
+    while (price < 0)
+    {
+        Console.Write("Podaj cenę towaru: ");
+        price = decimal.Parse(Console.ReadLine());
+    }
+
+    return price;
+}
+
+static int GetInstallmentsCount()
+{
+    var installmentsCount = 1;
+    while (installmentsCount < 2 || installmentsCount > 24)
+    {
+        Console.Write("Podaj liczbę rat (od 2 do 24): ");
+        installmentsCount = int.Parse(Console.ReadLine());
+    }
+
+    return installmentsCount;
+}
+
+static int GetInstallmentPayDay()
+{
+    var installmentPayDay = -1;
+    while (installmentPayDay < 0)
+    {
+        Console.Write("Podaj dzień płatności raty (dzień dla każdego miesiąca, w którym ma być płatna rata): ");
+        installmentPayDay = int.Parse(Console.ReadLine());
+    }
+
+    return installmentPayDay;
 }
