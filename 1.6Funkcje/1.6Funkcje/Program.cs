@@ -92,6 +92,7 @@ static void LogDaysHoursAndMinutes(int taskNumber)
     {
         Console.Write($"Nie udało się zalogować zadania numer {taskNumber}");
         GoBackToMenu();
+        return;
     }
 
     WorkLog(taskNumber,numberOfMinutes,numberOfHours,numberOfDays);
