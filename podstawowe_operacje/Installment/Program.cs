@@ -59,15 +59,13 @@ static DateTime FindPayDate(DateTime payDate, int month)
     return payDate;
 }
 
-static List<DateTime> CalculatePayDates(int installmentsCount, DateTime basePayDate)
+static IEnumerable<DateTime> CalculatePayDates(int installmentsCount, DateTime basePayDate)
 {
-    var payDates = new List<DateTime>();
     for (int month = 0; month < installmentsCount; ++month)
     {
         var payDate = FindPayDate(basePayDate, month);
-        payDates.Add(payDate);
+        yield return payDate;
     }
-    return payDates;
 }
 
 static decimal GetPrice()
