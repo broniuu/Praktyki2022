@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "n34bJhtFo+UzT+f5I6ywZYJAwLSJ1nPWEc0Wccr4s04YIookcunqcnJezuQPwZo+564ethJzvMcjtDfLoLsfkg==",
+  "success": true,
+  "projectFilePath": "D:\\WstepDoProgramowania\\1.7KonwersjeDanych\\zad2\\zad2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\broni\\.nuget\\packages\\microsoft.odata.edm\\7.12.0\\microsoft.odata.edm.7.12.0.nupkg.sha512",
+    "C:\\Users\\broni\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\broni\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\broni\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

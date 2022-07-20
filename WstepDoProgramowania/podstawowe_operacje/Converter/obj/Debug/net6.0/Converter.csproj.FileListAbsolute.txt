@@ -1,0 +1,15 @@
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\bin\Debug\net6.0\Converter.exe
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\bin\Debug\net6.0\Converter.deps.json
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\bin\Debug\net6.0\Converter.runtimeconfig.json
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\bin\Debug\net6.0\Converter.dll
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\bin\Debug\net6.0\Converter.pdb
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.csproj.AssemblyReference.cache
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.AssemblyInfoInputs.cache
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.AssemblyInfo.cs
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.csproj.CoreCompileInputs.cache
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.dll
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\refint\Converter.dll
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.pdb
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\Converter.genruntimeconfig.cache
+C:\Users\broni\source\repos\podstawowe_operacje\Converter\obj\Debug\net6.0\ref\Converter.dll

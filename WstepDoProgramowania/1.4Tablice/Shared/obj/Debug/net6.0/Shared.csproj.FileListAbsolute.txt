@@ -1,0 +1,5 @@
+D:\WstepDoProgramowania\1.4Tablice\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\1.4Tablice\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\1.4Tablice\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\1.4Tablice\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+D:\WstepDoProgramowania\1.4Tablice\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache

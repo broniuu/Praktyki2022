@@ -1,0 +1,15 @@
+C:\Users\broni\source\repos\Loops\ChristmasTree\bin\Debug\net6.0\ChristmasTree.exe
+C:\Users\broni\source\repos\Loops\ChristmasTree\bin\Debug\net6.0\ChristmasTree.deps.json
+C:\Users\broni\source\repos\Loops\ChristmasTree\bin\Debug\net6.0\ChristmasTree.runtimeconfig.json
+C:\Users\broni\source\repos\Loops\ChristmasTree\bin\Debug\net6.0\ChristmasTree.dll
+C:\Users\broni\source\repos\Loops\ChristmasTree\bin\Debug\net6.0\ChristmasTree.pdb
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.csproj.AssemblyReference.cache
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.AssemblyInfoInputs.cache
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.AssemblyInfo.cs
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.csproj.CoreCompileInputs.cache
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.dll
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\refint\ChristmasTree.dll
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.pdb
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ChristmasTree.genruntimeconfig.cache
+C:\Users\broni\source\repos\Loops\ChristmasTree\obj\Debug\net6.0\ref\ChristmasTree.dll

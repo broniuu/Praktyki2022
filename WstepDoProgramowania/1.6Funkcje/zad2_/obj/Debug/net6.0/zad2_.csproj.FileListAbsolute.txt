@@ -1,0 +1,15 @@
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\bin\Debug\net6.0\zad2_.exe
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\bin\Debug\net6.0\zad2_.deps.json
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\bin\Debug\net6.0\zad2_.runtimeconfig.json
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\bin\Debug\net6.0\zad2_.dll
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\bin\Debug\net6.0\zad2_.pdb
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.AssemblyInfo.cs
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.dll
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\refint\zad2_.dll
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.pdb
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\zad2_.genruntimeconfig.cache
+D:\WstepDoProgramowania\1.6Funkcje\zad2_\obj\Debug\net6.0\ref\zad2_.dll
