@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad1", "1.6Funkcje\zad1.csproj", "{7BE198B8-3CC8-475E-8F08-F0990491A24E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad2", "zad2\zad2.csproj", "{A9A90D46-3D6F-4A06-8132-726B5DE1D52F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE198B8-3CC8-475E-8F08-F0990491A24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE198B8-3CC8-475E-8F08-F0990491A24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE198B8-3CC8-475E-8F08-F0990491A24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE198B8-3CC8-475E-8F08-F0990491A24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A90D46-3D6F-4A06-8132-726B5DE1D52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A90D46-3D6F-4A06-8132-726B5DE1D52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A90D46-3D6F-4A06-8132-726B5DE1D52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A90D46-3D6F-4A06-8132-726B5DE1D52F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A421D85-8C59-4525-B317-ACD0E1BED665}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\broni\source\repos\1.4Tablice\zad4\bin\Debug\net6.0\zad4.exe
+C:\Users\broni\source\repos\1.4Tablice\zad4\bin\Debug\net6.0\zad4.deps.json
+C:\Users\broni\source\repos\1.4Tablice\zad4\bin\Debug\net6.0\zad4.runtimeconfig.json
+C:\Users\broni\source\repos\1.4Tablice\zad4\bin\Debug\net6.0\zad4.dll
+C:\Users\broni\source\repos\1.4Tablice\zad4\bin\Debug\net6.0\zad4.pdb
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.csproj.AssemblyReference.cache
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.AssemblyInfoInputs.cache
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.AssemblyInfo.cs
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.csproj.CoreCompileInputs.cache
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.dll
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\refint\zad4.dll
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.pdb
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\zad4.genruntimeconfig.cache
+C:\Users\broni\source\repos\1.4Tablice\zad4\obj\Debug\net6.0\ref\zad4.dll
