@@ -14,7 +14,6 @@ Console.WriteLine("Wypisanie elementu o podanym nr indexu (po wybraniu tej opcji
 Console.WriteLine("Zastąpienie elementu o podanym indexie, nowym elementem - 5");
 var taskNumber = int.Parse(Console.ReadLine());
 
-int choosenIndex;
 switch (taskNumber)
 {
     case 1:
@@ -29,26 +28,36 @@ switch (taskNumber)
         Console.WriteLine($"Największy: {greatestElement}");
         Console.WriteLine($"Najmniejszy: {smallestElement}");
         break;
-    case 4:
+    case 4: case 5:
         Console.Write("Wyierz numer indeksu: ");
-        choosenIndex = int.Parse(Console.ReadLine());
-        Console.WriteLine($"element o podanym indeksie {array[choosenIndex]}");
-        Console.Write($"Dostępne indexy: ");
-        for (var i = 0; i < size; i++)
+        var choosenIndex = int.Parse(Console.ReadLine());
+        if (choosenIndex < 0 || choosenIndex >= size)
         {
-            if (i != choosenIndex)
+            Console.WriteLine("Index poza zakresem!");
+        } else
+        {
+            switch (taskNumber)
             {
-                Console.Write($"{i} ");
-            }   
+                case 4:
+                    Console.WriteLine($"Element o podanym indeksie {array[choosenIndex]}");
+                    Console.Write($"Dostępne indexy: ");
+                    for (var i = 0; i < size; i++)
+                    {
+                        if (i != choosenIndex)
+                        {
+                            Console.Write($"{i} ");
+                        }
+                    }
+                    break;
+                case 5:
+                    Console.Write("Wpisz nową wartość dla indeksu: ");
+                    array[choosenIndex] = int.Parse(Console.ReadLine());
+                    Console.Write("Zaktualizowana Tablica: ");
+                    Console.WriteLine(string.Join(" ", array));
+                    break;
+            }
         }
-        break;
-    case 5:
-        Console.Write("Wyierz numer indeksu: ");
-        choosenIndex = int.Parse(Console.ReadLine());
-        Console.Write("Wpisz nową wartość dla indeksu: ");
-        array[choosenIndex] = int.Parse(Console.ReadLine());
-        Console.Write("Zaktualizowana Tablica: ");
-        Console.WriteLine(string.Join(" ", array));
+
         break;
     default:
         Console.WriteLine("Wrong number");
