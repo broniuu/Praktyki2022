@@ -13,7 +13,7 @@
     else
     {
         Console.WriteLine($"Zły format liczb");
-        Environment.Exit(0);
+        return;
     }
 
 }

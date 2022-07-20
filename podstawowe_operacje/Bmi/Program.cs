@@ -4,7 +4,6 @@
     var weight = float.Parse(Console.ReadLine());
     Console.WriteLine("Podaj wzrost (w metrach)");
     var height = float.Parse(Console.ReadLine());
-
     var bmi = weight / Math.Pow(height, 2);
     Console.WriteLine($"Bmi wynosi {bmi}");
 }
