@@ -5,9 +5,17 @@ static void ChooseTask()
     Console.WriteLine("Spotkanie Firmowe - 1");
     Console.WriteLine("Rozmowa z nativespeakerem - 2");
     Console.WriteLine("Praca nad projektem - 3");
+    Console.WriteLine("Zamknij Aplikację - każdy inny klawisz");
 
-    var taskNumber = int.Parse(Console.ReadLine());
+    var taskNumber = 0;
+    var taskNumberParsingSucces = int.TryParse(Console.ReadLine(),out taskNumber);
 
+    if (!taskNumberParsingSucces || taskNumber < 1 || taskNumber > 3)
+    {
+        Console.WriteLine("Opuszczanie aplikacji...");
+        Thread.Sleep(1000);
+        return;
+    }
     Console.Clear();
 
     ChooseLogMethods(taskNumber);
