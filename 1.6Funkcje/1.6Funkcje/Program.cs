@@ -44,8 +44,12 @@ static void ChooseLogMethods(int taskNumber)
 
     var success = int.TryParse(Console.ReadLine(), out methodNumber);
 
-    if (!success)
-        ChooseTask();
+    if (!success || methodNumber < 1 || methodNumber > 3)
+    {
+        Console.WriteLine("Niepoprawny numer komendy!");
+        GoBackToMenu();
+        return;
+    }
     
 
     if (methodNumber == 1)
@@ -60,7 +64,7 @@ static void ChooseLogMethods(int taskNumber)
     {
         LogMinutes(taskNumber);
     }
-    GoBackToMenu(taskNumber);
+    GoBackToMenu();
 }
 
 static void LogDaysHoursAndMinutes(int taskNumber)
@@ -80,7 +84,7 @@ static void LogDaysHoursAndMinutes(int taskNumber)
     if (!dayParsingSuccess || !hoursParsingSuccess || !minutesParsingSuccess)
     {
         Console.Write($"Nie udało się zalogować zadania numer {taskNumber}");
-        GoBackToMenu(taskNumber);
+        GoBackToMenu();
     }
 
     WorkLog(taskNumber,numberOfMinutes,numberOfHours,numberOfDays);
@@ -99,7 +103,7 @@ static void LogHoursAndMinutes(int taskNumber)
     if (!hoursParsingSuccess || !minutesParsingSuccess)
     {
         Console.Write($"Nie udało się zalogować zadania numer {taskNumber}");
-        GoBackToMenu(taskNumber);
+        GoBackToMenu();
     }
 
     WorkLog(taskNumber, numberOfMinutes, numberOfHours);
@@ -115,13 +119,13 @@ static void LogMinutes(int taskNumber)
     if (!minutesParsingSuccess)
     {
         Console.Write($"Nie udało się zalogować zadania numer {taskNumber}");
-        GoBackToMenu(taskNumber);
+        GoBackToMenu();
     }
 
     WorkLog(taskNumber, numberOfMinutes);
 }
 
-static void GoBackToMenu(int taskNumber)
+static void GoBackToMenu()
 {
     Thread.Sleep(5000);
     Console.Clear();
