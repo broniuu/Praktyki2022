@@ -16,17 +16,17 @@ var optionNumber = int.Parse(Console.ReadLine());
 
 Console.Clear();
 
-if (optionNumber == 1)
+switch (optionNumber)
 {
-    FirstOption();
-}
-if (optionNumber == 2)
-{
-    SecondOption();
-}
-if (optionNumber == 3)
-{
-    ThirdOption();
+    case 1:
+        FirstOption();
+        break;
+    case 2:
+        SecondOption();
+        break;
+    case 3:
+        ThirdOption();
+        break;
 }
 
 static void FirstOption()

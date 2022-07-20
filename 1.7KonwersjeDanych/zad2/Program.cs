@@ -25,17 +25,17 @@ static void StartMenu()
 
         var optionNumber = int.Parse(Console.ReadLine());
 
-        if(optionNumber == 1)
+        switch (optionNumber)
         {
-            Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("en-US")));
-        }
-        if (optionNumber == 2)
-        {
-            Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("fr-FR")));
-        }
-        if (optionNumber == 3)
-        {
-            Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("de-DE")));
+            case 1:
+                Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("en-US")));
+                break;
+            case 2:
+                Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("fr-FR")));
+                break;
+            case 3:
+                Console.WriteLine(date.ToString("dd MMMM yyyy hh mm", CultureInfo.CreateSpecificCulture("de-DE")));
+                break;
         }
     }
     catch (Exception ex)
