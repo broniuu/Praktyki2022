@@ -1,5 +1,10 @@
 ﻿Console.Write("Podaj liczbę naturalną (> 0): ");
 var n = int.Parse(Console.ReadLine());
+if (n < 0)
+{
+    Console.WriteLine("Liczba, nie jest naturalna");
+    Environment.Exit(1);
+}
 var boolArray = new bool[n,n];
 
 for (int i = 0; i < n; i++)
