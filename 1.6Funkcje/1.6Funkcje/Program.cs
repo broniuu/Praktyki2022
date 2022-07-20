@@ -51,18 +51,17 @@ static void ChooseLogMethods(int taskNumber)
         return;
     }
     
-
-    if (methodNumber == 1)
+    switch (methodNumber)
     {
-        LogDaysHoursAndMinutes(taskNumber);
-    }
-    else if (methodNumber == 2)
-    {
-        LogHoursAndMinutes(taskNumber);
-    }
-    else
-    {
-        LogMinutes(taskNumber);
+        case 1:
+            LogDaysHoursAndMinutes(taskNumber);
+            break;
+        case 2:
+            LogHoursAndMinutes(taskNumber);
+            break;
+        case 3:
+            LogMinutes(taskNumber);
+            break;
     }
     GoBackToMenu();
 }
