@@ -21,7 +21,7 @@ var interest = CalculateInterest(installmentPayDay);
 
 var amountOfCredit = price + price * interest;
 
-var instellmentAmount = (amountOfCredit / installmentsCount);
+var instellmentAmount = amountOfCredit / installmentsCount;
 
 Console.WriteLine(" kwota wypłaty | data płatności | kwota kredytu | odsetki");
 foreach (var date in payDates)
