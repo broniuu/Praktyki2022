@@ -57,29 +57,6 @@ switch (taskNumber)
         Console.WriteLine("Wrong number");
         break;
 }
-if (taskNumber == 1)
-{
-
-
-} else if (taskNumber == 2)
-{
-
-
-} else if (taskNumber == 3)
-{
-
-
-} else if (taskNumber == 4)
-{
-
-
-} else if (taskNumber == 5)
-{
-
-} else
-{
-    
-}
 
 static void WriteArray(IEnumerable<int> items)
 {
