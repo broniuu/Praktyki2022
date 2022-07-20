@@ -1,4 +1,4 @@
-﻿var price = (decimal)-1;
+﻿var price = -1m;
 
 while (price < 0)
 {
@@ -54,13 +54,13 @@ static decimal CalculateInterest(decimal installmentPayDay)
 {
     if (installmentPayDay <= 8)
     {
-        return 0;
+        return 0m;
     }
     if (installmentPayDay >= 9 && installmentPayDay <= 12)
     {
-        return (decimal)0.05;
+        return 0.05m;
     }
-    return (decimal)0.08;
+    return 0.08m;
 }
 
 static DateTime FindPayDate(DateTime payDate, int month)
