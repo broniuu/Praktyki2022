@@ -45,7 +45,7 @@ Console.WriteLine(" kwota wypłaty | data płatności | kwota kredytu | odsetki"
 foreach (var date in payDates)
 {
     amountOfCredit = amountOfCredit - instellmentAmount;
-    Console.WriteLine($"{Math.Round(instellmentAmount,2)} | " +
+    Console.WriteLine($"{Math.Round(instellmentAmount, 2)} | " +
         $"{date.ToString("dd'-'MMMM'-'yyyy")} " +
         $"| {Math.Round(amountOfCredit, 2)} | {interest}");
 }

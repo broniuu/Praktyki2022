@@ -7,7 +7,8 @@
 
     var bmi = weight / Math.Pow(height, 2);
     Console.WriteLine($"Bmi wynosi {bmi}");
-} catch (Exception ex)
+}
+catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
