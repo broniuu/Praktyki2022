@@ -11,13 +11,7 @@ for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        if (HasNotCommonDivisior(i+1,j+1))
-        {
-            boolArray[i,j] = true;
-        } else
-        {
-            boolArray[i,j] = false;
-        }
+        boolArray[i,j] = HasNotCommonDivisior(i+1,j+1);
     }
 }
 
