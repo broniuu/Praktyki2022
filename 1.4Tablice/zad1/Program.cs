@@ -41,13 +41,8 @@ switch (taskNumber)
                 case 4:
                     Console.WriteLine($"Element o podanym indeksie {array[choosenIndex]}");
                     Console.Write($"Dostępne indexy: ");
-                    for (var i = 0; i < size; i++)
-                    {
-                        if (i != choosenIndex)
-                        {
-                            Console.Write($"{i} ");
-                        }
-                    }
+                    var indexList = Enumerable.Range(0, choosenIndex).Select(x => x);
+                    Console.WriteLine(string.Join(" ", indexList.Where(i => i != choosenIndex)));
                     break;
                 case 5:
                     Console.Write("Wpisz nową wartość dla indeksu: ");
