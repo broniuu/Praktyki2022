@@ -58,9 +58,9 @@ if (taskNumber == 1)
     Console.WriteLine("Wrong number");
 }
 
-static void WriteArray(Array array)
+static void WriteArray(IEnumerable<int> items)
 {
-    foreach (var element in array)
+    foreach (var element in items)
     {
         Console.Write($"{element} ");
     }
