@@ -14,17 +14,14 @@ Console.WriteLine("Wypisanie elementu o podanym nr indexu (po wybraniu tej opcji
 Console.WriteLine("Zastąpienie elementu o podanym indexie, nowym elementem - 5");
 var taskNumber = int.Parse(Console.ReadLine());
 
-var newArray = new int[array.Length];
 int choosenIndex;
 switch (taskNumber)
 {
     case 1:
-        newArray = array.OrderBy(x => x).ToArray();
-        Console.WriteLine(string.Join(" ", array));
+        Console.WriteLine(string.Join(" ", array.OrderBy(x => x)));
         break;
     case 2:
-        newArray = array.OrderByDescending(x => x).ToArray();
-        Console.WriteLine(string.Join(" ", array));
+        Console.WriteLine(string.Join(" ", array.OrderByDescending(x => x)));
         break;
     case 3:
         var greatestElement = array.Max();
