@@ -60,11 +60,7 @@ switch (taskNumber)
 
 static void WriteArray(IEnumerable<int> items)
 {
-    foreach (var element in items)
-    {
-        Console.Write($"{element} ");
-    }
-    Console.WriteLine();
+    Console.WriteLine(string.Join(" ", items));
 }
 
 
