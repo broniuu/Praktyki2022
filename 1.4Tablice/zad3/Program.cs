@@ -16,8 +16,6 @@ for (int i = 0; i < n; i++)
     }
 }
 
-
-
 WriteBooleanArray(boolArray);
 
 static void WriteBooleanArray(bool[,] boolArray)

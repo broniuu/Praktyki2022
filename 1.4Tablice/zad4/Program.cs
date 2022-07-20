@@ -1,4 +1,5 @@
-﻿Random random = new Random();
+﻿
+Random random = new Random();
 var array1 = new int[2];
 var array2 = new int[2];
 
@@ -9,21 +10,12 @@ for (int i = 0; i < array1.Length; i++)
 }
 
 Console.Write("First array: ");
-WriteArray(array1);
+Console.WriteLine(string.Join(" ", array1));
 
-Console.Write("Second array: ");
-WriteArray(array2);
+Console.Write("Second array: "); 
+Console.WriteLine(string.Join(" ", array2));
 
 var array3 = array1.Concat(array2).ToArray();
 
 Console.Write("Third array: ");
-WriteArray(array3);
-
-static void WriteArray(Array array)
-{
-    foreach (var element in array)
-    {
-        Console.Write($"{element} ");
-    }
-    Console.WriteLine();
-}
+Console.WriteLine(string.Join(" ", array3));

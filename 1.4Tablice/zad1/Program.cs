@@ -20,11 +20,11 @@ switch (taskNumber)
 {
     case 1:
         newArray = array.OrderBy(x => x).ToArray();
-        WriteArray(newArray);
+        Console.WriteLine(string.Join(" ", array));
         break;
     case 2:
         newArray = array.OrderByDescending(x => x).ToArray();
-        WriteArray(newArray);
+        Console.WriteLine(string.Join(" ", array));
         break;
     case 3:
         var greatestElement = array.Max();
@@ -51,16 +51,10 @@ switch (taskNumber)
         Console.Write("Wpisz nową wartość dla indeksu: ");
         array[choosenIndex] = int.Parse(Console.ReadLine());
         Console.Write("Zaktualizowana Tablica: ");
-        WriteArray(array);
+        Console.WriteLine(string.Join(" ", array));
         break;
     default:
         Console.WriteLine("Wrong number");
         break;
 }
-
-static void WriteArray(IEnumerable<int> items)
-{
-    Console.WriteLine(string.Join(" ", items));
-}
-
 
