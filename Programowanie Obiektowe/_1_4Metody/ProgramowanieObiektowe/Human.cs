@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgramowanieObiektowe
+namespace _1_4Metody
 {
     internal class Human
     {

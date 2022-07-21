@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ClassLibrary >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\broni\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj",
-      "projectName": "_1_4Metody",
-      "projectPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj",
+      "projectUniqueName": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1.6Konstruktor\\_1.6Konstruktor.csproj",
+      "projectName": "_1.6Konstruktor",
+      "projectPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1.6Konstruktor\\_1.6Konstruktor.csproj",
       "packagesPath": "C:\\Users\\broni\\.nuget\\packages\\",
-      "outputPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\obj\\",
+      "outputPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1.6Konstruktor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\broni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ClassLibrary\\ClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

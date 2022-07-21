@@ -1,5 +1,4 @@
 ﻿using _1_4Metody;
-using ProgramowanieObiektowe;
 using System.Collections.Generic;
 
 var users = new List<User>()

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj": {}
+    "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1_5ModyfikatoryDostepu\\_1_5ModyfikatoryDostepu.csproj": {}
   },
   "projects": {
     "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ClassLibrary\\ClassLibrary.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj": {
+    "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1_5ModyfikatoryDostepu\\_1_5ModyfikatoryDostepu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj",
-        "projectName": "_1_4Metody",
-        "projectPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\_1_4Metody.csproj",
+        "projectUniqueName": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1_5ModyfikatoryDostepu\\_1_5ModyfikatoryDostepu.csproj",
+        "projectName": "_1_5ModyfikatoryDostepu",
+        "projectPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1_5ModyfikatoryDostepu\\_1_5ModyfikatoryDostepu.csproj",
         "packagesPath": "C:\\Users\\broni\\.nuget\\packages\\",
-        "outputPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\ProgramowanieObiektowe\\obj\\",
+        "outputPath": "D:\\WstepDoProgramowania\\Programowanie Obiektowe\\_1_4Metody\\_1_5ModyfikatoryDostepu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\broni\\AppData\\Roaming\\NuGet\\NuGet.Config",
