@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "_1_4Metody/1.0.0": {
-        "dependencies": {
-          "ClassLibrary": "1.0.0"
-        },
-        "runtime": {
-          "_1_4Metody.dll": {}
-        }
-      },
       "ClassLibrary/1.0.0": {
         "runtime": {
           "ClassLibrary.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "_1_4Metody/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "ClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,

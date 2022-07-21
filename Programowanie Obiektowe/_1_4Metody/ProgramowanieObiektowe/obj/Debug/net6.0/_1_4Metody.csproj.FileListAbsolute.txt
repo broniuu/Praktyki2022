@@ -13,3 +13,6 @@ D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektow
 D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\obj\Debug\net6.0\_1_4Metody.pdb
 D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\obj\Debug\net6.0\_1_4Metody.genruntimeconfig.cache
 D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\obj\Debug\net6.0\ref\_1_4Metody.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\bin\Debug\net6.0\ClassLibrary.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\bin\Debug\net6.0\ClassLibrary.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ProgramowanieObiektowe\obj\Debug\net6.0\_1_4Metody.csproj.CopyComplete
