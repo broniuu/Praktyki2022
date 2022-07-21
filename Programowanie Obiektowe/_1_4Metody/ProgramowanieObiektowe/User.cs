@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _1_4Metody
+﻿namespace _1_4Metody
 {
     internal class User
     {
@@ -24,7 +18,7 @@ namespace _1_4Metody
             users.Add(new User("Monika", Sex.Woman, 22));
             users.Add(new User("Jessica", Sex.Woman, 27));
             users.Add(new User("Joanna", Sex.Woman, 78));
-            
+
             displayMethod();
 
 

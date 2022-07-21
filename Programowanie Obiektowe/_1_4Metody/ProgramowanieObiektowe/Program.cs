@@ -1,5 +1,4 @@
 ﻿using _1_4Metody;
-using System.Collections.Generic;
 
 var users = new List<User>()
 {
@@ -89,12 +88,12 @@ static Human MakeHuman(string name, string surname, DateTime bornDate)
 }
 static void Nothing() { }
 
-static void TwoParameters(int a, int b = 0){ }
+static void TwoParameters(int a, int b = 0) { }
 
 static void TwoParameters2(int a, int b) { }
 
 static void PlusOneToItems(ref int[] items)
 {
-    items = items.Select(x => x*2).ToArray();
+    items = items.Select(x => x * 2).ToArray();
 }
 
