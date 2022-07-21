@@ -28,9 +28,19 @@ namespace zad2
             this.UsedVacationDays = usedVacationDays;
         }
 
-        public int getUnusedVacationDays()
+        public void TakeAVaccation(int takenVaccationDays)
         {
-            return this.VacationDays - this.UsedVacationDays;
+            this.VacationDays -= takenVaccationDays;
+            this.UsedVacationDays += takenVaccationDays;
+        }
+        public int getAvalibleDays()
+        {
+            return this.VacationDays;
+        }
+
+        public decimal getPay()
+        {
+            return this.Salary;
         }
     }
 }
