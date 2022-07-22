@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_1_8ElementyStatyczne", "_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1_9DziedziczenieHermetyzacjaPolimorfizm", "_1_9DziedziczenieHermetyzacjaPolimorfizm\_1_9DziedziczenieHermetyzacjaPolimorfizm.csproj", "{CADE3753-01A7-4C39-B774-60F48F72518D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.10TypyWyliczeniowe", "1.10TypyWyliczeniowe\1.10TypyWyliczeniowe.csproj", "{16846EA8-9551-49BC-912E-2D5CA3871E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CADE3753-01A7-4C39-B774-60F48F72518D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADE3753-01A7-4C39-B774-60F48F72518D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADE3753-01A7-4C39-B774-60F48F72518D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16846EA8-9551-49BC-912E-2D5CA3871E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16846EA8-9551-49BC-912E-2D5CA3871E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16846EA8-9551-49BC-912E-2D5CA3871E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16846EA8-9551-49BC-912E-2D5CA3871E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
