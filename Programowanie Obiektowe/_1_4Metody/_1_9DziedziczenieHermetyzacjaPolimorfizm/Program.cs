@@ -15,7 +15,7 @@ var engine = new EightCylinder();
 var suspection = new HighSuspension();
 var body = new Hatchback();
 
-var car = new Car(tires,engine,suspection,body, "Porshe");
+var car = new Car(tires, engine, suspection, body, "Porshe");
 CarAnalyzer.ShowCarProperties(car);
 Console.WriteLine();
 car.Engine.Work();

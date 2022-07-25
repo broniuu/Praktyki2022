@@ -2,11 +2,6 @@
 using _1_9DziedziczenieHermetyzacjaPolimorfizm.Engines;
 using _1_9DziedziczenieHermetyzacjaPolimorfizm.Suspections;
 using _1_9DziedziczenieHermetyzacjaPolimorfizm.Tires;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1_9DziedziczenieHermetyzacjaPolimorfizm
 {

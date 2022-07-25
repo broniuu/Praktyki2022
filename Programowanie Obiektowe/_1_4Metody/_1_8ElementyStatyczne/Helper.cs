@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _1_8ElementyStatyczne
+﻿namespace _1_8ElementyStatyczne
 {
     internal static class Helper
     {
@@ -22,10 +16,10 @@ namespace _1_8ElementyStatyczne
         }
         public static void DupTheTextInFile(string pathToFile)
         {
-     
+
             var text = File.ReadAllText(pathToFile);
             var dupedText = string.Join(
-                ' ', 
+                ' ',
                 text.Split(' ').Select
                 (
                     w => (
@@ -47,7 +41,7 @@ namespace _1_8ElementyStatyczne
                 (
                     w => (
                         w.Equals("dupa") ?
-                        words[random.Next(0,4)] : w
+                        words[random.Next(0, 4)] : w
                         )
                     )
             );

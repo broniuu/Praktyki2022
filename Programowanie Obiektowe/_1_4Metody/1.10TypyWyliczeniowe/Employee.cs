@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _1._10TypyWyliczeniowe
+﻿namespace _1._10TypyWyliczeniowe
 {
     public class Employee
     {
@@ -13,7 +7,7 @@ namespace _1._10TypyWyliczeniowe
     }
     public enum ContractType
     {
-        Trial,Intership,Temporaty,Other
+        Trial, Intership, Temporaty, Other
     }
 
 }
