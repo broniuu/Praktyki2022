@@ -35,5 +35,5 @@ b ^= c;
 b |= c;
 b = c;
 
-var list = new List<int>() { 1, 2, 3 ,4};
+var list = new int[] { 1, 2, 3 ,4};
 var newList = list.Select(x => x + 1);
