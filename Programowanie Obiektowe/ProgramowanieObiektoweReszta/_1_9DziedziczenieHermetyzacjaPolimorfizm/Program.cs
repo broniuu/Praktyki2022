@@ -4,7 +4,7 @@ using _1_9DziedziczenieHermetyzacjaPolimorfizm.Engines;
 using _1_9DziedziczenieHermetyzacjaPolimorfizm.Suspections;
 using _1_9DziedziczenieHermetyzacjaPolimorfizm.Tires;
 
-var tires = new List<GravelTire>()
+var tires = new GravelTire[]
 {
     new GravelTire(),
     new GravelTire(),
