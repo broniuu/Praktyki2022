@@ -2,7 +2,7 @@
 {
     public interface Figura
     {
-        abstract public void WyswietlWzor();
+        void WyswietlWzor();
     }
 
     public struct Kwadrat : Figura
@@ -12,5 +12,4 @@
             Console.WriteLine("P = a * a");
         }
     }
-
 }
