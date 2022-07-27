@@ -1,0 +1,15 @@
+C:\Users\broni\source\repos\Loops\Sms\bin\Debug\net6.0\Sms.exe
+C:\Users\broni\source\repos\Loops\Sms\bin\Debug\net6.0\Sms.deps.json
+C:\Users\broni\source\repos\Loops\Sms\bin\Debug\net6.0\Sms.runtimeconfig.json
+C:\Users\broni\source\repos\Loops\Sms\bin\Debug\net6.0\Sms.dll
+C:\Users\broni\source\repos\Loops\Sms\bin\Debug\net6.0\Sms.pdb
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.csproj.AssemblyReference.cache
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.AssemblyInfoInputs.cache
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.AssemblyInfo.cs
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.csproj.CoreCompileInputs.cache
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.dll
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\refint\Sms.dll
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.pdb
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\Sms.genruntimeconfig.cache
+C:\Users\broni\source\repos\Loops\Sms\obj\Debug\net6.0\ref\Sms.dll

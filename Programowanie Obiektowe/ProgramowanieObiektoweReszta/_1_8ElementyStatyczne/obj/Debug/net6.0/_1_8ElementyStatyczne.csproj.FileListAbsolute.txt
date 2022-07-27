@@ -1,0 +1,15 @@
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\bin\Debug\net6.0\_1_8ElementyStatyczne.exe
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\bin\Debug\net6.0\_1_8ElementyStatyczne.deps.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\bin\Debug\net6.0\_1_8ElementyStatyczne.runtimeconfig.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\bin\Debug\net6.0\_1_8ElementyStatyczne.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\bin\Debug\net6.0\_1_8ElementyStatyczne.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.AssemblyInfo.cs
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\refint\_1_8ElementyStatyczne.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\_1_8ElementyStatyczne.genruntimeconfig.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_8ElementyStatyczne\obj\Debug\net6.0\ref\_1_8ElementyStatyczne.dll

@@ -1,0 +1,15 @@
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\bin\Debug\net6.0\_1_7Wlasciwosci.exe
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\bin\Debug\net6.0\_1_7Wlasciwosci.deps.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\bin\Debug\net6.0\_1_7Wlasciwosci.runtimeconfig.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\bin\Debug\net6.0\_1_7Wlasciwosci.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\bin\Debug\net6.0\_1_7Wlasciwosci.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.AssemblyInfo.cs
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\refint\_1_7Wlasciwosci.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\_1_7Wlasciwosci.genruntimeconfig.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_7Wlasciwosci\obj\Debug\net6.0\ref\_1_7Wlasciwosci.dll
