@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _1_3PolaKlasyZad2
+﻿namespace _1_3PolaKlasyZad2
 {
     internal class Invoice
     {
