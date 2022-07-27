@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace _1_11Struktury
 {
     internal class Invoice
     {
-        public List<Position> Positions { set; get; } 
+        public List<Position> Positions { set; get; }
         public string DocumentNumber { get; set; }
         public string DocumentDate { get; set; }
         public string Recipient { get; set; }

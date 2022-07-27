@@ -1,0 +1,15 @@
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\bin\Debug\net6.0\_1_13PrzeladowanieOperatorow.exe
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\bin\Debug\net6.0\_1_13PrzeladowanieOperatorow.deps.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\bin\Debug\net6.0\_1_13PrzeladowanieOperatorow.runtimeconfig.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\bin\Debug\net6.0\_1_13PrzeladowanieOperatorow.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\bin\Debug\net6.0\_1_13PrzeladowanieOperatorow.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.AssemblyInfo.cs
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\refint\_1_13PrzeladowanieOperatorow.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\_1_13PrzeladowanieOperatorow.genruntimeconfig.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1_3PrzeladowanieOperatorow\obj\Debug\net6.0\ref\_1_13PrzeladowanieOperatorow.dll

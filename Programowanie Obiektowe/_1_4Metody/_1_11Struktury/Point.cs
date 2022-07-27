@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _1_11Struktury
+﻿namespace _1_11Struktury
 {
     public struct Point
     {
@@ -35,7 +29,7 @@ namespace _1_11Struktury
             var x2 = Ending.X;
             var y2 = Ending.Y;
 
-            return Math.Sqrt(Math.Pow(x2 - x1,2) + Math.Pow(y2 - y1,2));
+            return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
         }
 
     }
@@ -43,7 +37,7 @@ namespace _1_11Struktury
     public struct Triange
     {
         public Line A { get; set; }
-        public Line B{ get; set; }
+        public Line B { get; set; }
         public Line C { get; set; }
 
         public Triange(Line a, Line b, Line c)

@@ -13,7 +13,7 @@
         Ending = ending;
         Comment = comment;
         User = user;
-        
+
     }
     public string Title { get; init; }
 

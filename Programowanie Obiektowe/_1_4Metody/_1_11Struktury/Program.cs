@@ -1,5 +1,4 @@
 ﻿using _1_11Struktury;
-using System.Collections;
 
 //App1.Start();
 
@@ -14,5 +13,5 @@ var lineA = new Line(pointA, pointB);
 var lineB = new Line(pointB, pointC);
 var lineC = new Line(pointC, pointA);
 
-var triangle = new Triange(lineA,lineB,lineC);
+var triangle = new Triange(lineA, lineB, lineC);
 Console.WriteLine(triangle.CanMakeTriangle());
