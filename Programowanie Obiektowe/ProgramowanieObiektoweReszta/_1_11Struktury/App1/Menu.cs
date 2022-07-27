@@ -2,8 +2,9 @@
 {
     internal static class Menu
     {
-        public static List<Todo> ShowMenu(List<Todo> todos)
+        public static List<Todo> ShowMenu(List<Todo> todos, out bool semaphore)
         {
+            semaphore = true;
             Console.WriteLine($"Dodanie TODOsa - 1");
             Console.WriteLine($"Wyświetlenie TODOsów - 2");
             Console.WriteLine($"Usunięcie TODOsa - 3");
@@ -14,19 +15,23 @@
             {
                 case '1':
                     return AddTodo(todos);
+
                 case '2':
                     DisplayTodos(todos);
                     break;
+
                 case '3':
                     return DeleteTodo(todos);
+
                 default:
-                    Environment.Exit(0);
+                    semaphore = false;
                     break;
             }
             Console.Clear();
             return todos;
         }
-        static List<Todo> AddTodo(List<Todo> todos)
+
+        private static List<Todo> AddTodo(List<Todo> todos)
         {
             Console.Write("Podaj tytuł: ");
             var title = Console.ReadLine();
@@ -76,7 +81,17 @@
             Console.Clear();
             return todos;
         }
-        static void DisplayTodos(List<Todo> todos)
+
+        private static List<Todo> DeleteTodo(List<Todo> todos)
+        {
+            Console.Write("Podaj tytuł TODOsa, który chcesz usunąć: ");
+            var title = Console.ReadLine();
+            var updatedTodos = todos.SkipWhile(t => t.Title.Equals(title)).ToList();
+            Console.Clear();
+            return updatedTodos;
+        }
+
+        private static void DisplayTodos(List<Todo> todos)
         {
             foreach (Todo todo in todos)
             {
@@ -102,16 +117,6 @@
             }
             Console.WriteLine($"Naciśnij klawisz aby wyjść");
             Console.ReadKey();
-
-        }
-        static List<Todo> DeleteTodo(List<Todo> todos)
-        {
-            Console.Write("Podaj tytuł TODOsa, który chcesz usunąć: ");
-            var title = Console.ReadLine();
-            var updatedTodos = todos.SkipWhile(t => t.Title.Equals(title)).ToList();
-            Console.Clear();
-            return updatedTodos;
-
         }
     }
 }

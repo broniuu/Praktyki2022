@@ -1,6 +1,7 @@
 ﻿using _1_11Struktury;
+using _1_11Struktury.App1;
 
-//App1.Start();
+App1.Start();
 
 //App2.Start();
 

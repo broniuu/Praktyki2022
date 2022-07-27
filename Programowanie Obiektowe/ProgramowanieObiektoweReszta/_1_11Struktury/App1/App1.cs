@@ -5,9 +5,10 @@
         public static void Start()
         {
             var todos = new List<Todo>();
-            while (true)
+            var semaphore = true;
+            while (semaphore)
             {
-                todos = Menu.ShowMenu(todos);
+                todos = Menu.ShowMenu(todos, out semaphore);
             }
         }
     }
