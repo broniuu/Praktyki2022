@@ -1,0 +1,20 @@
+books
+	BookId
+	Name
+	AuthorId
+	DepartmentId
+authors
+	AuthorId
+	AuthorName
+	AuthorSurname
+workers
+	WorkerId
+	WorkerName
+	WorkerSurname
+wages
+	WageId
+	WorkerId
+	Amount
+departments
+	DepartmentId
+	DepartmentName
