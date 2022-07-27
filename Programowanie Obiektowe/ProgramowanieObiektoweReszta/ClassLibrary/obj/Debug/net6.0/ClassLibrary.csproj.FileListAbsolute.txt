@@ -1,0 +1,12 @@
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll

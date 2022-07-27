@@ -1,0 +1,15 @@
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\bin\Debug\net6.0\_1.6Konstruktor.exe
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\bin\Debug\net6.0\_1.6Konstruktor.deps.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\bin\Debug\net6.0\_1.6Konstruktor.runtimeconfig.json
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\bin\Debug\net6.0\_1.6Konstruktor.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\bin\Debug\net6.0\_1.6Konstruktor.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.csproj.AssemblyReference.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.GeneratedMSBuildEditorConfig.editorconfig
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.AssemblyInfoInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.AssemblyInfo.cs
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.csproj.CoreCompileInputs.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\refint\_1.6Konstruktor.dll
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.pdb
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\_1.6Konstruktor.genruntimeconfig.cache
+D:\WstepDoProgramowania\Programowanie Obiektowe\_1_4Metody\_1.6Konstruktor\obj\Debug\net6.0\ref\_1.6Konstruktor.dll
