@@ -2,13 +2,13 @@
 
 Console.WriteLine("---zad1---");
 Console.WriteLine();
-Employee[] employees = new Employee[4];
-
-employees[0] = new Employee() { Name = "John", ContractType = ContractType.Trial };
-employees[1] = new Employee() { Name = "Bob", ContractType = ContractType.Trial };
-employees[2] = new Employee() { Name = "Steve", ContractType = ContractType.Intership };
-employees[3] = new Employee() { Name = "Jim", ContractType = ContractType.Other };
-
+Employee[] employees = new Employee[4]
+{
+    new Employee() { Name = "John", ContractType = ContractType.Trial },
+    new Employee() { Name = "Bob", ContractType = ContractType.Trial },
+    new Employee() { Name = "Steve", ContractType = ContractType.Intership },
+    new Employee() { Name = "Jim", ContractType = ContractType.Other },
+};
 foreach (var employee in employees)
 {
     Console.WriteLine("Employee name is : {0} and contract type is {1}", employee.Name, employee.ContractType);
@@ -28,8 +28,7 @@ Console.WriteLine(MyDays);
 Console.WriteLine((int)MyDays);
 Console.Read();
 
-
-enum Day
+internal enum Day
 {
     Monday,
     Tuesday,
@@ -41,7 +40,7 @@ enum Day
 };
 
 [Flags]
-enum Days
+internal enum Days
 {
     Pn = 1,
     Wt = 2,
@@ -51,4 +50,3 @@ enum Days
     So = 32,
     Nd = 64
 };
-
