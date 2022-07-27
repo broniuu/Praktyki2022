@@ -1,10 +1,6 @@
 ﻿using _1_11Struktury;
 using _1_11Struktury.App1;
 
-App1.Start();
-
-//App2.Start();
-
 var pointA = new Point(0, 0);
 var pointB = new Point(0, 1);
 var pointC = new Point(1, 0);
