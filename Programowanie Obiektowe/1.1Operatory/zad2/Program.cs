@@ -13,7 +13,7 @@ Console.WriteLine("11) or");
 
 var operationNumber = int.Parse(Console.ReadLine());
 
-if(operationNumber == 8)
+if (operationNumber == 8)
 {
     Console.Write("Podaj liczbę: ");
     var number = int.Parse(Console.ReadLine());
@@ -25,50 +25,37 @@ else
     var number1 = int.Parse(Console.ReadLine());
     Console.Write("Podaj liczbę: ");
     var number2 = int.Parse(Console.ReadLine());
-    if(operationNumber == 1)
+    switch (operationNumber)
     {
-        Console.WriteLine(number1+number2);
-    }
-    if (operationNumber == 2)
-    {
-        Console.WriteLine(number1 - number2);
-
-    }
-    if (operationNumber == 3)
-    {
-        Console.WriteLine(number1 * number2);
-
-    }
-    if (operationNumber == 4)
-    {
-        Console.WriteLine(number1 / number2);
-
-    }
-    if (operationNumber == 5)
-    {
-        Console.WriteLine(number1 % number2);
-
-    }
-    if (operationNumber == 6)
-    {
-        Console.WriteLine(number1 >> number2);
-
-    }
-    if (operationNumber == 7)
-    {
-        Console.WriteLine(number1 << number2);
-
-    }
-    if (operationNumber == 9)
-    {
-        Console.WriteLine(number1 & number2);
-    }
-    if (operationNumber == 10)
-    {
-        Console.WriteLine(number1 ^ number2);
-    }
-    if (operationNumber == 11)
-    {
-        Console.WriteLine(number1 | number2);
+        case 1:
+            Console.WriteLine(number1 + number2);
+            break;
+        case 2:
+            Console.WriteLine(number1 - number2);
+            break;
+        case 3:
+            Console.WriteLine(number1 * number2);
+            break;
+        case 4:
+            Console.WriteLine(number1 / number2);
+            break;
+        case 5:
+            Console.WriteLine(number1 % number2);
+            break;
+        case 6:
+            Console.WriteLine(number1 >> number2);
+            break;
+        case 7:
+            Console.WriteLine(number1 << number2);
+            break;
+        case 9:
+            Console.WriteLine(number1 & number2);
+            break;
+        case 10:
+            Console.WriteLine(number1 ^ number2);
+            break;
+        case 11:
+            Console.WriteLine(number1 | number2);
+            break;
     }
 }
