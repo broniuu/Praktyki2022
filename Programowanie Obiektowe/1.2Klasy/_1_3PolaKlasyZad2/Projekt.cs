@@ -9,7 +9,7 @@ namespace _1_3PolaKlasyZad2Zad3
     internal class Project
     {
         public string ProjectName { get; set; }
-        public List<Worker> Workers { get; set; }
+        public IEnumerable<Worker> Workers { get; set; }
         private int ProjectId { get; set; }
     }
 }
