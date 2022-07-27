@@ -1,19 +1,17 @@
 ﻿namespace ClassLibrary
 {
-    public class Animal
+    public abstract class Animal
     {
         protected int Age { get; set; }
-        private void BeAnimal()
-        {
 
-        }
-        public void MakeSound()
-        {
+        public abstract void MakeSound();
 
-        }
         internal void BeDog()
         {
+        }
 
+        private void BeAnimal()
+        {
         }
     }
 }
