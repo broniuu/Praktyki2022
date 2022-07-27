@@ -27,16 +27,6 @@ namespace zad2
         private int UsedVacationDays { get; set; }
         private int VacationDays { get; set; }
 
-        public int getAvalibleDays()
-        {
-            return this.VacationDays;
-        }
-
-        public decimal getPay()
-        {
-            return this.Salary;
-        }
-
         public void TakeAVaccation(int takenVaccationDays)
         {
             this.VacationDays -= takenVaccationDays;
