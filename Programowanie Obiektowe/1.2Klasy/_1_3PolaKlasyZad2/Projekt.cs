@@ -8,9 +8,8 @@ namespace _1_3PolaKlasyZad2Zad3
 {
     internal class Project
     {
-        private int ProjectId { get; set; }
         public string ProjectName { get; set; }
         public List<Worker> Workers { get; set; }
-
+        private int ProjectId { get; set; }
     }
 }
