@@ -1,12 +1,14 @@
 books
-	BookId
+	BookId (PK)
 	Name
-	AuthorId
-	DepartmentId
+	DepartmentId (FK_departments_books)
 authors
 	AuthorId
 	AuthorName
 	AuthorSurname
+bookAutors
+	BookId
+	AuthorId
 workers
 	WorkerId
 	WorkerName
@@ -17,4 +19,4 @@ wages
 	Amount
 departments
 	DepartmentId
-	DepartmentName
+	Name
