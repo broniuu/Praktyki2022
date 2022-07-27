@@ -9,11 +9,3 @@ cube.Add(new Point3D(1, 0, 0));
 cube.Add(new Point3D(1, 0, 1));
 cube.Add(new Point3D(1, 1, 1));
 cube.Add(new Point3D(0, 1, 0));
-
-
-
-
-
-
-
-
