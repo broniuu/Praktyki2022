@@ -6,16 +6,9 @@ using System.Threading.Tasks;
 
 namespace zad2
 {
-    internal class Pracownik
+    internal class Employee
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        private decimal Salary { get; set; }
-        private int VacationDays { get; set; }
-        private int UsedVacationDays { get; set; }
-
-
-        public Pracownik(string name,
+        public Employee(string name,
                          string surname,
                          decimal salary,
                          int vacationDays,
@@ -28,11 +21,12 @@ namespace zad2
             this.UsedVacationDays = usedVacationDays;
         }
 
-        public void TakeAVaccation(int takenVaccationDays)
-        {
-            this.VacationDays -= takenVaccationDays;
-            this.UsedVacationDays += takenVaccationDays;
-        }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        private decimal Salary { get; set; }
+        private int UsedVacationDays { get; set; }
+        private int VacationDays { get; set; }
+
         public int getAvalibleDays()
         {
             return this.VacationDays;
@@ -41,6 +35,12 @@ namespace zad2
         public decimal getPay()
         {
             return this.Salary;
+        }
+
+        public void TakeAVaccation(int takenVaccationDays)
+        {
+            this.VacationDays -= takenVaccationDays;
+            this.UsedVacationDays += takenVaccationDays;
         }
     }
 }
