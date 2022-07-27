@@ -22,7 +22,7 @@ Console.WriteLine((int)Day.Thursday);
 Console.WriteLine();
 Console.WriteLine("---zad3---");
 
-Days MyDays = Days.Nd | Days.Pt;
+Days MyDays = Days.Sn | Days.Fr;
 
 Console.WriteLine(MyDays);
 Console.WriteLine((int)MyDays);
@@ -42,11 +42,11 @@ internal enum Day
 [Flags]
 internal enum Days
 {
-    Pn = 1,
-    Wt = 2,
-    Śr = 4,
-    Czw = 8,
-    Pt = 16,
-    So = 32,
-    Nd = 64
+    Mn = 1,
+    Ts = 2,
+    Wd = 4,
+    Th = 8,
+    Fr = 16,
+    St = 32,
+    Sn = 64
 };
