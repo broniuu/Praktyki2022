@@ -9,4 +9,5 @@ MapSetter.SetDapperMapper();
 var connectionString = @"Server=(localdb)\LibraryDatabase;Database=LibraryDatabase;Trusted_Connection=True;";
 var dbConnectionFactory = new DbConnectionFactory(connectionString);
 var bookProperties = dbConnectionFactory.GetBookProperties();
+var workerProperties = dbConnectionFactory.GetWorkerProperties();
 ;

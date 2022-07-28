@@ -32,5 +32,12 @@ namespace BazaDanych.DbConnection
             connection.Open();
             return connection.Query<BookProperties>("select * from BookProperties");
         }
+
+        public IEnumerable<WorkerProperties> GetWorkerProperties()
+        {
+            using var connection = Connect();
+            connection.Open();
+            return connection.Query<WorkerProperties>("select * from WorkerProperties");
+        }
     }
 }
