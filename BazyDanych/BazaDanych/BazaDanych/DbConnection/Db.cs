@@ -41,7 +41,7 @@ namespace BazaDanych.DbConnection
             using var connection = Connect();
             connection.Open();
             var procedure = "[uspAddBookAuthor]";
-            var values = new { BookId = bookAuthor.BookId, AuthorId = bookAuthor.AuhtorId };
+            var values = new { BookId = bookAuthor.BookId, AuthorId = bookAuthor.AuthorId };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
             return result;

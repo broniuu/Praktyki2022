@@ -14,9 +14,9 @@ namespace BazaDanych.Model
             WorkerId = workerId;
         }
 
-        public decimal Amount { get; set; }
-        public int WageId { get; set; }
-        public int WorkerId { get; set; }
+        public decimal Amount { get; }
+        public int WageId { get; }
+        public int WorkerId { get; }
 
         public override string? ToString()
         {

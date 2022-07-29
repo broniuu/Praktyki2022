@@ -8,8 +8,8 @@ namespace BazaDanych.Model
 {
     internal class Woman
     {
-        public string WomanName { get; set; }
-        public string WomanSurname { get; set; }
+        public string WomanName { get; }
+        public string WomanSurname { get; }
 
         public override string? ToString()
         {

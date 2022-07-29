@@ -13,8 +13,8 @@ namespace BazaDanych.Model
             Name = departmentName;
         }
 
-        public int DepartmentId { get; set; }
-        public string Name { get; set; }
+        public int DepartmentId { get; }
+        public string Name { get; }
 
         public override string? ToString()
         {

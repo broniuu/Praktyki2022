@@ -10,12 +10,12 @@ namespace BazaDanych.Model
     {
         public BookAuthor(int auhtorId, int bookId)
         {
-            AuhtorId = auhtorId;
+            AuthorId = auhtorId;
             BookId = bookId;
         }
 
-        public int AuhtorId { get; set; }
-        public int BookId { get; set; }
+        public int AuthorId { get; }
+        public int BookId { get; }
 
         public override string? ToString()
         {

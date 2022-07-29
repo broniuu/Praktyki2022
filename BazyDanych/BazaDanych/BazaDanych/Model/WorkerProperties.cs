@@ -9,10 +9,10 @@ namespace BazaDanych.Model
 {
     internal class WorkerProperties
     {
-        public decimal Amount { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int WorkerId { get; set; }
+        public decimal Amount { get; }
+        public string Name { get; }
+        public string Surname { get; }
+        public int WorkerId { get; }
 
         public override string? ToString()
         {

@@ -10,19 +10,19 @@ namespace BazaDanych.Model
     internal class BookProperties
     {
         [Column("Author Name")]
-        public string AuthorName { get; set; }
+        public string AuthorName { get; }
 
         [Column("Author Surname")]
-        public string AuthorSurname { get; set; }
+        public string AuthorSurname { get; }
 
         [Column("BookID")]
-        public int BookId { get; set; }
+        public int BookId { get; }
 
         [Column("Book Name")]
-        public string BookName { get; set; }
+        public string BookName { get; }
 
         [Column("Department Name")]
-        public string DepartmentName { get; set; }
+        public string DepartmentName { get; }
 
         public override string? ToString()
         {

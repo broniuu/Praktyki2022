@@ -14,9 +14,9 @@ namespace BazaDanych.Model
             Surname = surname;
         }
 
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int WorkerId { get; set; }
+        public string Name { get; }
+        public string Surname { get; }
+        public int WorkerId { get; }
 
         public override string? ToString()
         {
