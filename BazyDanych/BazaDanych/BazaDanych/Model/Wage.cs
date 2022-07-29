@@ -17,5 +17,10 @@ namespace BazaDanych.Model
         public decimal Amount { get; set; }
         public int WageId { get; set; }
         public int WorkerId { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{WageId} | {WorkerId} |  {Amount}";
+        }
     }
 }

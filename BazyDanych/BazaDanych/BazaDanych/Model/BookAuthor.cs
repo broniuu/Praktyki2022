@@ -16,5 +16,10 @@ namespace BazaDanych.Model
 
         public int AuhtorId { get; set; }
         public int BookId { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{AuthorId} | {BookId}";
+        }
     }
 }

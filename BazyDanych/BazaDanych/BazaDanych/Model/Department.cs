@@ -15,5 +15,10 @@ namespace BazaDanych.Model
 
         public int DepartmentId { get; set; }
         public string Name { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{DepartmentId} |  {Name}";
+        }
     }
 }

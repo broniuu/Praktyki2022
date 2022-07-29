@@ -17,5 +17,10 @@ namespace BazaDanych.Model
         public string Name { get; set; }
         public string Surname { get; set; }
         public int WorkerId { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{WorkerId} |  {Name} | {WorkerId}";
+        }
     }
 }

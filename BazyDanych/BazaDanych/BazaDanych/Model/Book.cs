@@ -11,5 +11,10 @@
         public int BookId { get; set; }
         public int DepartmentId { get; set; }
         public string Name { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{BookId} | {DepartmentId} |  {Name}";
+        }
     }
 }
