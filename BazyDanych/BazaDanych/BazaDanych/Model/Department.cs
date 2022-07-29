@@ -8,7 +8,12 @@ namespace BazaDanych.Model
 {
     internal class Department
     {
+        public Department(string departmentName)
+        {
+            Name = departmentName;
+        }
+
         public int DepartmentId { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
     }
 }

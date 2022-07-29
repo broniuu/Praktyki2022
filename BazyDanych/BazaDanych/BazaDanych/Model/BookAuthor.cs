@@ -8,6 +8,12 @@ namespace BazaDanych.Model
 {
     internal class BookAuthor
     {
+        public BookAuthor(int auhtorId, int bookId)
+        {
+            AuhtorId = auhtorId;
+            BookId = bookId;
+        }
+
         public int AuhtorId { get; set; }
         public int BookId { get; set; }
     }

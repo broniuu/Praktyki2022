@@ -8,8 +8,17 @@
             Surname = surname;
         }
 
+        public Author()
+        {
+        }
+
         public int AuthorId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
+
+        public override string? ToString()
+        {
+            return $"{AuthorId} | {Name} |  {Surname}";
+        }
     }
 }

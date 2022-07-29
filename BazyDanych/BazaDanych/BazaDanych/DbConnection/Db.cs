@@ -5,71 +5,79 @@ using System.Data.SqlClient;
 
 namespace BazaDanych.DbConnection
 {
-    internal class DbConnectionFactory
+    internal class Db
     {
         private readonly string _connectionString;
 
-        public DbConnectionFactory(string connectionString)
+        public Db(string connectionString)
         {
             _connectionString = connectionString;
         }
 
-        public void AddAuthor(Author author)
+        public int AddAuthor(Author author)
         {
             using var connection = Connect();
             connection.Open();
             var procedure = "[uspAddAuthor]";
             var values = new { Name = author.Name, Surname = author.Surname };
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
+            return result;
         }
 
-        public void AddBook(Book book)
+        public int AddBook(Book book)
         {
             using var connection = Connect();
             connection.Open();
             var procedure = "[uspAddBook]";
             var values = new { Name = book.Name, DepartmentId = book.DepartmentId };
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
+            return result;
         }
 
-        public void AddBookAuthor(BookAuthor bookAuthor)
+        public int AddBookAuthor(BookAuthor bookAuthor)
         {
             using var connection = Connect();
             connection.Open();
             var procedure = "[uspAddBookAuthor]";
             var values = new { BookId = bookAuthor.BookId, AuthorId = bookAuthor.AuhtorId };
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
+            return result;
         }
 
-        public void AddWorker(Worker worker)
-        {
-            using var connection = Connect();
-            connection.Open();
-            var procedure = "uspAddWorker";
-            var values = new { Name = worker.Name, Surname = worker.Surname };
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
-            connection.Close();
-        }
-        public void AddDepartment(Department department)
+        public int AddDepartment(Department department)
         {
             using var connection = Connect();
             connection.Open();
             var procedure = "uspAddDepartment";
             var values = new { Name = department.Name };
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
+            return result;
         }
-        public void AddWage(Wage wage)
+
+        public int AddWage(Wage wage)
         {
             using var connection = Connect();
             connection.Open();
             var procedure = "uspAddWage";
-            var values = new { Amount = wage.Amount, WorkerId = wage.WorkerId};
-            var results = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            var values = new { Amount = wage.Amount, WorkerId = wage.WorkerId };
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
+            return result;
+        }
+
+        public int AddWorker(Worker worker)
+        {
+            using var connection = Connect();
+            connection.Open();
+            var procedure = "uspAddWorker";
+            var values = new { Name = worker.Name, Surname = worker.Surname };
+            var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
+            connection.Close();
+            return result;
         }
 
         public IEnumerable<Author> GetAuthors()
