@@ -82,7 +82,7 @@ static void ShowAddAuthorMenu(Db db)
     Console.Write("Enter author's surname: ");
     var authorSurname = Console.ReadLine();
     var addAuthorResult = db.AddAuthor(new Author(authorName, authorSurname));
-    Console.WriteLine($"Operation {(addAuthorResult == -1 ? "unsuccesfull" : "succesfull")}");
+    Console.WriteLine($"Operation {(!addAuthorResult ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowAddBookMenu(Db db)
@@ -92,7 +92,7 @@ static void ShowAddBookMenu(Db db)
     Console.Write("Enter department ID: ");
     var departmentId = int.Parse(Console.ReadLine());
     var addBookResult = db.AddBook(new Book(bookName, departmentId));
-    Console.WriteLine($"Operation {(addBookResult == -1 ? "unsuccesfull" : "succesfull")}");
+    Console.WriteLine($"Operation {(!addBookResult ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowAddDepartmentMenu(Db db)
@@ -100,7 +100,7 @@ static void ShowAddDepartmentMenu(Db db)
     Console.Write("Enter department's name: ");
     var departmentName = Console.ReadLine();
     var addDepartmentResult = db.AddDepartment(new Department(departmentName));
-    Console.WriteLine($"Operation {(addDepartmentResult == -1 ? "unsuccesfull" : "succesfull")}");
+    Console.WriteLine($"Operation {(!addDepartmentResult ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowAddWorkerMenu(Db db)
@@ -110,7 +110,7 @@ static void ShowAddWorkerMenu(Db db)
     Console.Write("Enter worker's surname: ");
     var workerSurname = Console.ReadLine();
     var addWorkerResult = db.AddWorker(new Worker(workerName, workerSurname));
-    Console.WriteLine($"Operation {(addWorkerResult == -1 ? "unsuccesfull" : "succesfull")}");
+    Console.WriteLine($"Operation {(!addWorkerResult ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowAddWageMenu(Db db)
@@ -122,7 +122,7 @@ static void ShowAddWageMenu(Db db)
     int workerId;
     var workerIdParsingSucces = int.TryParse(Console.ReadLine(), out workerId);
     var addWageResult = db.AddWage(new Wage(workerAmount, workerId));
-    Console.WriteLine($"Operation {(addWageResult == -1 || !workerIdParsingSucces ? "unsuccesfull" : "succesfull")}");
+    Console.WriteLine($"Operation {(!addWageResult || !workerIdParsingSucces ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowAddBookAuthorMenu(Db db)
@@ -135,7 +135,7 @@ static void ShowAddBookAuthorMenu(Db db)
     var bookIdParsingSuccess = int.TryParse(Console.ReadLine(), out bookId);
     var addBookAuthorResult = db.AddBookAuthor(new BookAuthor(authorId, bookId));
     Console.WriteLine($"Operation " +
-        $"{(addBookAuthorResult == -1 || !authorIdParsingSuccess || !bookIdParsingSuccess ? "unsuccesfull" : "succesfull")}");
+        $"{(!addBookAuthorResult || !authorIdParsingSuccess || !bookIdParsingSuccess ? "unsuccesfull" : "succesfull")}");
 }
 
 static void ShowBookProperties(Db db)

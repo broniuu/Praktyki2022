@@ -12,9 +12,9 @@
         {
         }
 
-        public int AuthorId { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public int AuthorId { get; }
+        public string Name { get; }
+        public string Surname { get; }
 
         public override string? ToString()
         {

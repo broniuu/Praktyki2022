@@ -14,7 +14,7 @@ namespace BazaDanych.DbConnection
             _connectionString = connectionString;
         }
 
-        public int AddAuthor(Author author)
+        public bool AddAuthor(Author author)
         {
             using var connection = Connect();
             connection.Open();
@@ -22,10 +22,10 @@ namespace BazaDanych.DbConnection
             var values = new { Name = author.Name, Surname = author.Surname };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
-        public int AddBook(Book book)
+        public bool AddBook(Book book)
         {
             using var connection = Connect();
             connection.Open();
@@ -33,10 +33,10 @@ namespace BazaDanych.DbConnection
             var values = new { Name = book.Name, DepartmentId = book.DepartmentId };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
-        public int AddBookAuthor(BookAuthor bookAuthor)
+        public bool AddBookAuthor(BookAuthor bookAuthor)
         {
             using var connection = Connect();
             connection.Open();
@@ -44,10 +44,10 @@ namespace BazaDanych.DbConnection
             var values = new { BookId = bookAuthor.BookId, AuthorId = bookAuthor.AuthorId };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
-        public int AddDepartment(Department department)
+        public bool AddDepartment(Department department)
         {
             using var connection = Connect();
             connection.Open();
@@ -55,10 +55,10 @@ namespace BazaDanych.DbConnection
             var values = new { Name = department.Name };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
-        public int AddWage(Wage wage)
+        public bool AddWage(Wage wage)
         {
             using var connection = Connect();
             connection.Open();
@@ -66,10 +66,10 @@ namespace BazaDanych.DbConnection
             var values = new { Amount = wage.Amount, WorkerId = wage.WorkerId };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
-        public int AddWorker(Worker worker)
+        public bool AddWorker(Worker worker)
         {
             using var connection = Connect();
             connection.Open();
@@ -77,7 +77,7 @@ namespace BazaDanych.DbConnection
             var values = new { Name = worker.Name, Surname = worker.Surname };
             var result = connection.Execute(procedure, values, commandType: CommandType.StoredProcedure);
             connection.Close();
-            return result;
+            return result == -1 ? false : true;
         }
 
         public IEnumerable<Woman> FindWomen()
