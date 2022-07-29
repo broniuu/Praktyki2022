@@ -8,6 +8,12 @@ namespace BazaDanych.Model
 {
     internal class Woman
     {
+        public Woman(string womanName, string womanSurname)
+        {
+            WomanName = womanName;
+            WomanSurname = womanSurname;
+        }
+
         public string WomanName { get; }
         public string WomanSurname { get; }
 
