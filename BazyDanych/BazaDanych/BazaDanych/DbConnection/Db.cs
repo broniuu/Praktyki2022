@@ -84,7 +84,7 @@ namespace BazaDanych.DbConnection
         {
             using var connection = Connect();
             connection.Open();
-            var women = connection.Query<Woman>("SELECT * FROM [dbo].[ufnFindWoman] ()");
+            var women = connection.Query<Woman>("SELECT WomanName, WomanSurname FROM [dbo].[ufnFindWoman] ()");
             connection.Close();
             return women;
         }
