@@ -9,19 +9,19 @@ namespace BazaDanych.Model
 {
     internal class BookProperties
     {
-        [Column("Author Name")]
+        [Column("AuthorName")]
         public string AuthorName { get; set; }
 
-        [Column("Author Surname")]
+        [Column("AuthorSurname")]
         public string AuthorSurname { get; set; }
 
         [Column("BookID")]
         public int BookId { get; set; }
 
-        [Column("Book Name")]
+        [Column("BookName")]
         public string BookName { get; set; }
 
-        [Column("Department Name")]
+        [Column("DepartmentName")]
         public string DepartmentName { get; set; }
     }
 }
