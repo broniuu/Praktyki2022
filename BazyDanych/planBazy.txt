@@ -1,0 +1,22 @@
+Books
+	BookID (PK)
+	Name
+	DepartmentId (FK_departments_books)
+Authors
+	AuthorID (PK)
+	Name
+	Surname
+BookAutors
+	BookId (FK_books
+	AuthorId
+Workers
+	WorkerId (PK)
+	Name
+	Surname
+Wages
+	WageId
+	Amount
+	WorkerId
+Departments
+	DepartmentId
+	Name
