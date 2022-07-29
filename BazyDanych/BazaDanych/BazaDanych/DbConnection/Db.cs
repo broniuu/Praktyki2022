@@ -80,6 +80,15 @@ namespace BazaDanych.DbConnection
             return result;
         }
 
+        public IEnumerable<Woman> FindWomen()
+        {
+            using var connection = Connect();
+            connection.Open();
+            var women = connection.Query<Woman>("SELECT * FROM [dbo].[ufnFindWoman] ()");
+            connection.Close();
+            return women;
+        }
+
         public IEnumerable<Author> GetAuthors()
         {
             using var connection = Connect();

@@ -65,6 +65,7 @@ while (true)
             break;
 
         case '0':
+            ShowFindWomenMenu(db);
             break;
 
         default:
@@ -165,6 +166,17 @@ static void ShowAuthors(Db db)
     foreach (var author in authors)
     {
         Console.WriteLine(author);
+    }
+    Console.WriteLine("Press any key To exit");
+    Console.ReadKey();
+}
+
+static void ShowFindWomenMenu(Db db)
+{
+    var women = db.FindWomen();
+    foreach (var woman in women)
+    {
+        Console.WriteLine(woman);
     }
     Console.WriteLine("Press any key To exit");
     Console.ReadKey();
