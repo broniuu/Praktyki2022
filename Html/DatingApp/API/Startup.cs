@@ -50,6 +50,10 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAplicationServices(_config);
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
+            });
             services.AddControllers();
             services.AddCors();
             services.AddIdentityServices(_config);
