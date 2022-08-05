@@ -5,23 +5,23 @@ import { NgxSpinnerService } from 'ngx-spinner';
   providedIn: 'root'
 })
 export class BusyService {
-  bussyRquestCount = 0;
+  busyRequestCount = 0;
 
   constructor(private spinnerService: NgxSpinnerService) { }
 
-  busy(){
-    this.bussyRquestCount++;
+  busy() {
+    this.busyRequestCount++;
     this.spinnerService.show(undefined, {
+      type: 'line-scale-party',
       bdColor: 'rgba(255,255,255,0)',
-      color: '#333333',
-      type: 'line-scale-party'
+      color: '#333333'
     });
   }
 
   idle() {
-    this.bussyRquestCount--;
-    if (this.bussyRquestCount <= 0) {
-      this.bussyRquestCount = 0;
+    this.busyRequestCount--;
+    if (this.busyRequestCount <= 0) {
+      this.busyRequestCount = 0;
       this.spinnerService.hide();
     }
   }
