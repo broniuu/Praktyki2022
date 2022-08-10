@@ -22,7 +22,7 @@
     "@kolkov/ngx-gallery": "^2.0.1",
     "@schematics/angular": "^12.2.18",
     "bootstrap": "^4.5.3",
-    "bootswatch": "^5.2.0",
+    "bootswatch": "^4.5.2",
     "font-awesome": "^4.7.0",
     "ng2-file-upload": "^1.4.0",
     "ngx-bootstrap": "^7.1.2",
