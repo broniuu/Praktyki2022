@@ -1,0 +1,75 @@
+.navbar {
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 95%;
+}
+
+.logo {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: left;
+}
+
+.login-items {
+    float: right;
+}
+
+.login {
+    float: right;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=password] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    background-color:#54bcd2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+.items {
+    float: right;
+    right: 0px;
+    clear: both;
+}
+
+.items ul {
+    margin: 0;
+    padding: 0;
+}
+
+.items ul li {
+    display: block;
+    float:left;
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.items ul li:not(:first-child):before {
+    padding-right: 15px;
+    padding-left: 15px;
+    content:'/';
+}
+
+.items ul li a {
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+.items ul li a:hover {
+    color:#54bcd2;
+}

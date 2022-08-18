@@ -1,0 +1,28 @@
+.end {
+    height: 300px;
+    background-color: #ccc5c5;
+    clear:both;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.info-container {
+    color: gray;
+    font-size: 15px;
+    float: left;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.main-info {
+    color: #54bcd2;
+    font-weight: 700;
+    float: auto;
+    margin-bottom: 7px;
+}
+
+.footer {
+    font-size: 13px;
+    clear: both;
+    color: rgb(167, 167, 167);
+}

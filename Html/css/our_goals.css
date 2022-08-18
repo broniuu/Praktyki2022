@@ -1,0 +1,64 @@
+.main-goal-background {
+    height: 350px;
+    background-image: url("../img/7ba37e93-8280-43bc-bb92-9ad45ad5eafb.png");
+    margin-bottom: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.main-goal-container {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.since {
+    font-size: 12px;
+    font-weight: normal;
+    color:#54bcd2;
+}
+
+button[type=choose-plan] {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.other-goals {
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.other-goals ul {
+    margin: 0;
+    padding: 0;
+}
+
+.other-goals ul li {
+    text-align: center;
+    width: 33%;
+    display: block;
+    float:left;
+}
+
+.other-goals ul li:not(:first-child){
+    border-left: 2px solid #e9e9e9 ;
+}
+
+.goal-title {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.goal-text {
+    size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display:inline-block;
+}
