@@ -1,0 +1,46 @@
+.h-opinions {
+    margin-top: 90px;
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+
+.opinion {
+    margin-top: 60px;
+}
+
+.i-opinion {
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+
+.h-opinion-container {
+    float: left;
+    color: white;
+    padding-top: 50px;
+    width: 700px;
+}
+
+.opinion-number {
+    background-color: #17c3b7;
+    float: left;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.h-opinion {
+    float: left;
+    padding: 15px 20px;
+    background-color: #39ccc2;
+    font-size: 20px;
+    width: 500px;
+}
+
+.opion-content {
+    margin-top:  90px;
+    display:inline-block;
+    color: #39ccc2;
+    font-size: 20px;
+    width: 700px;
+}

@@ -1,6 +1,12 @@
-.navbar {
+nav {
     height: 60px;
     background-color: #369d9c;
+}
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
 }
 
 #home {
