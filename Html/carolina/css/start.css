@@ -1,0 +1,54 @@
+.start {
+    height: 150px;
+}
+
+.logo {
+    float: left;
+    margin: 20px;
+}
+
+#carolina {
+    margin-right: 30px;
+}
+
+#fifa {
+    width: 90px;
+    height: 70px;
+}
+
+.contact {
+    margin: 30px;
+    float: right;
+}
+
+.visit {
+    color: #244280;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    margin-right: 30px;
+}
+
+.phone-number {
+    color: rgb(255, 25, 25);
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+}
+
+.duty {
+    margin-top: 10px;
+    float: right;
+    text-align: right;
+    border: 3px solid #54abaa ;
+    padding: 7px 2%;
+    display: inline-block;
+    border-radius: 7px;
+    color: #244280;
+    font-weight: 700;
+}
+
+#red-cross {
+    width: 15px;
+    height: 15px;
+}
