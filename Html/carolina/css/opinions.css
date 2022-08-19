@@ -53,9 +53,8 @@
     color: #215e4f;
     height: 40px;
     width: 100px;
-    margin-top: 25%;
+    top: 900px;
     position: absolute;
-    bottom: 25%;
     right: 0;
     padding: 10px;
 }
