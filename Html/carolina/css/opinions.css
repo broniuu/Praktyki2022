@@ -3,10 +3,12 @@
     text-align: center;
     color: gray;
     font-size: 30px;
+    margin-bottom: 60px;
 }
 
 .opinion {
-    margin-top: 60px;
+    height: 500px;
+    margin-bottom: 60px;
 }
 
 .i-opinion {
@@ -43,4 +45,17 @@
     color: #39ccc2;
     font-size: 20px;
     width: 700px;
+}
+
+.visit-2 {
+    background-image: linear-gradient(to right, #aadfa0 , #3f8a5c);
+    cursor: pointer;
+    color: #215e4f;
+    height: 40px;
+    width: 100px;
+    margin-top: 25%;
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    padding: 10px;
 }

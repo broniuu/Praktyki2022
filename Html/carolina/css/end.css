@@ -1,0 +1,123 @@
+.end-1 {
+    background-color: #f1f1f1;
+    height: 250px;
+}
+
+.end-1-contianer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1280px;
+    height: 300px;
+}
+
+.end-logo {
+    float: left;
+    margin-top: 60px;
+    width: 600px;
+}
+
+#pkol {
+    height: 130px;
+    width: 130px;
+    float: left;
+}
+
+.luxmed {
+    width: 250px;
+    height: 40px;
+    color: #29366b;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.h-luxmed {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.p-luxmed {
+    font-size: 13px;
+}
+
+#fifa-end {
+    width: 90px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.end-contact {
+    float: left;
+    padding-top: 30px;
+    width: 600px;
+    font-weight: 700;
+    height: 200px;
+}
+
+.contact-container {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.h-end {
+    color: gray;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.end-name {
+    margin-top: 30px;
+    color: #28868b;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-weight: 500;
+    color: #28868b;
+    margin-bottom: 20px;
+}
+
+.end-phone-number {
+    margin-top: 20px;
+    color: rgb(255, 25, 25);
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.email {
+    margin-top: 10px;
+    color: rgb(255, 25, 25);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.end-2 {
+    clear: both;
+    background-color: #369d9c;
+    height: 70px;
+}
+
+.end-2-contianer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1280px;
+    height: 70px;
+}
+
+.footer {
+    float: left;
+    margin-top: 25px;
+    color: white;
+}
+
+.socials {
+    float: right;
+    margin-top: 20px;
+    color: white;
+    margin-right: 100px;
+}
+
+
+
